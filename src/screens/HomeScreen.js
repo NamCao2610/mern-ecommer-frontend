@@ -13,7 +13,7 @@ function HomeScreen() {
 
     useEffect(() => {
         dispatch(listProducts());
-    }, [])
+    }, [dispatch])
     return (
         <div>
             {loading ? <LoadingBox /> : error ? <MessageBox variant={'danger'}>{error}</MessageBox> : (

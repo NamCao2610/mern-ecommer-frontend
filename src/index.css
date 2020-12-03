@@ -292,4 +292,24 @@ img.large {
     color: #ff8000;
 }
 
+/* table */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table tbody tr:nth-of-type(odd) {
+    background-color: #f4f4f4;
+}
+
+.table td, .table th {
+    text-align: center;
+    border: 0.1rem solid #e4e4e4;
+    padding: 0.5rem;
+}
+
+
+.button.small {
+    font-size: 1.2rem;
+}
 
